@@ -1,11 +1,18 @@
-# Tải file bị chặn tải về (View Only) từ Google Drive
+# Tải file bị chặn tải về (View Only) từ Google Drive/Download View-Only Google Drive Files
 
-## 🚀 Cách sử dụng
-1. Mở file Google Drive cần tải. **Lướt đến cuối file để load hết các trang có trong file**.
+## 🚀 🇻🇳 Cách sử dụng
+1. Mở file Google Drive cần tải. **Cuộn đến cuối file để load toàn bộ các trang (rất quan trọng, nếu không chỉ tải được vài trang đầu)**.
 2. Mở **Developer Tools** (F12 trên Windows) và chuyển đến tab **Console**.
-3. Copy toàn bộ nội dung script bên dưới và dán vào console, nhấn Enter.
+3. Dán toàn bộ nội dung script bên dưới và dán vào console, nhấn Enter.
 4. File PDF sẽ tự động tải xuống sau khi hoàn tất.
---> Lưu ý, file sẽ được tải về dưới dạng ảnh nên dung lượng sẽ hơi lớn so với một file văn bản thông thường.
+--> ⚠️ Lưu ý: file sẽ được tải về dưới dạng ảnh nên dung lượng sẽ hơi lớn so với một file văn bản thông thường.
+
+## 🚀 EN How to Use
+1. Open the Google Drive file you want to download. **Make sure to scroll all the way to the end to load every page. This is crucial – if you don't, only the first few pages will be captured.**.
+2. Press F12 to open **Developer Tools** and go to the **Console** tab.
+3. Paste the entire script below into the Console and press Enter.
+4. Wait for the processing to finish – the PDF file will be downloaded automatically.
+--> ⚠️ Lưu ý: The generated PDF is composed of page images, so its size will be larger than a regular text‑based PDF.
 
 ### 📝 Script
 ```
@@ -121,3 +128,8 @@
   script.src = trustedURL;
   document.body.appendChild(script);
 })();
+```
+### 🪡 Nguồn tham khảo/Credits
+Script này được dựa trên code gốc từ repository  [Google-Drive-View-Only-PDF-Script-Downloader](https://github.com/zavierferodova/Google-Drive-View-Only-PDF-Script-Downloader) của tác giả [@zavierferodova](https://github.com/zavierferodova), để tăng tốc độ tải file nhanh hơn.
+
+This script is based on the original code from the repository [Google-Drive-View-Only-PDF-Script-Downloader](https://github.com/zavierferodova/Google-Drive-View-Only-PDF-Script-Downloader) [@zavierferodova](https://github.com/zavierferodova), to further increase file downloading speed.
