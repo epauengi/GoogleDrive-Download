@@ -5,14 +5,16 @@
 2. Mở **Developer Tools** (F12 trên Windows) và chuyển đến tab **Console**.
 3. Dán toàn bộ nội dung script bên dưới và dán vào console, nhấn Enter.
 4. File PDF sẽ tự động tải xuống sau khi hoàn tất.
-⚠️ Lưu ý: file sẽ được tải về dưới dạng ảnh nên dung lượng sẽ hơi lớn so với một file văn bản thông thường.
+
+*⚠️ Lưu ý: file sẽ được tải về dưới dạng ảnh nên dung lượng sẽ hơi lớn so với một file văn bản thông thường.*
 
 ## 🚀 EN How to Use
 1. Open the Google Drive file you want to download. **Make sure to scroll all the way to the end to load every page. This is crucial – if you don't, only the first few pages will be captured.**.
 2. Press F12 to open **Developer Tools** and go to the **Console** tab.
 3. Paste the entire script below into the Console and press Enter.
 4. Wait for the processing to finish – the PDF file will be downloaded automatically.
-⚠️ Note: The generated PDF is composed of page images, so its size will be larger than a regular text‑based PDF.
+
+*⚠️ Note: The generated PDF is composed of page images, so its size will be larger than a regular text‑based PDF.*
 
 ### 📝 Script
 ```
