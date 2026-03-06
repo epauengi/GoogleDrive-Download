@@ -123,9 +123,7 @@
         createScriptURL: input => input
       });
       trustedURL = policy.createScriptURL(scriptURL);
-    } catch (e) {
-      console.warn(' TrustedTypes không áp dụng được.');
-    }
+    } catch (e) {}
   }
   script.src = trustedURL;
   document.body.appendChild(script);
