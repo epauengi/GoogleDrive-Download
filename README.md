@@ -132,4 +132,4 @@
 ### 🪡 Nguồn tham khảo/Credits
 Script này được dựa trên code gốc từ repository  [Google-Drive-View-Only-PDF-Script-Downloader](https://github.com/zavierferodova/Google-Drive-View-Only-PDF-Script-Downloader) của tác giả [@zavierferodova](https://github.com/zavierferodova), để tăng tốc độ tải file nhanh hơn.
 
-This script is based on the original code from the repository [Google-Drive-View-Only-PDF-Script-Downloader](https://github.com/zavierferodova/Google-Drive-View-Only-PDF-Script-Downloader) [@zavierferodova](https://github.com/zavierferodova), to further increase file downloading speed.
+This script is based on the original code from the repository [Google-Drive-View-Only-PDF-Script-Downloader](https://github.com/zavierferodova/Google-Drive-View-Only-PDF-Script-Downloader) by [@zavierferodova](https://github.com/zavierferodova), to further increase file downloading speed.
